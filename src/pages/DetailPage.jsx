@@ -123,7 +123,7 @@ const DetailPage = () => {
                 src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit//${item?.card.info.imageId}`}
                 alt=""
               />
-              <button onClick={() => addFoodItem(item)} className="css-button-sliding-to-left--sand">Add Item</button>
+              <button onClick={() => addFoodItem(item)} className="add-btn css-button-sliding-to-left--sand">Add Item</button>
             </div>
           </div>
         ))
